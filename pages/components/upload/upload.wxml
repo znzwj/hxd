@@ -1,0 +1,42 @@
+<view class="container">
+  <form class="page-body" bindsubmit="submitForm" report-submit="true">
+    <view class="weui-cells weui-cells_after-title">
+    <block wx:for="{{lists}}" >
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">{{index+1}}.物品名称:{{item.curIpt}}</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" type="text" disabled="{{true}}" value="{{formData.address}}" name="address"></input>
+        </view>
+      </view>
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">开封（生产）日期:{{item.beginTime}}</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" type="text" disabled="{{true}}" value="{{formData.time}}" name="time"></input>
+        </view>
+      </view>
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">到期时间:{{item.finishTime}}</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" type="text" disabled="{{true}}" value="{{formData.name}}" name="name"></input>
+        </view>
+      </view>
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">提前提醒日期:{{item.aheadDate}}</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" type="text" disabled="{{true}}" value="{{formData.serial}}" name="serial"></input>
+        </view>
+      </view>
+    </block>
+    </view>
+  </form>
+
+  <template is="foot" />
+</view>

@@ -1,0 +1,89 @@
+<view class="container">
+
+  <view class="selection">
+    <swiper indicator-dots="true" autoplay="ture" interval="3000" duration="1000">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class="selection">
+    <view class="header">
+      <text>保质期须知</text>
+      <text class="text-all">全部</text>
+    </view>
+
+    <view class="content">
+      <view class="content-item" bindtap="first">
+        <image src="../../image/qiaokeli.jpg" />
+
+        <view class="content-item-text">
+          <text>保质期与开封后使用日期</text>
+        </view>
+      </view>
+      <view class="content-item" bindtap="second">
+        <image src="../../image/chiyao.jpg" />
+
+        <view class="content-item-text">
+          <text>过期药品的危害及处理方法</text>
+        </view>
+      </view>
+      <view class="content-item" bindtap="third">
+        <image src="../../image/guoqihzp.jpg" />
+
+        <view class="content-item-text">
+          <text>过期化妆品的危害</text>
+        </view>
+      </view>
+      <view class="content-item" bindtap="forth">
+        <image src="../../image/huazhuangpin.jpg" />
+
+        <view class="content-item-text">
+          <text>过期化妆品实用小妙招</text>
+        </view>
+      </view>
+
+    </view>
+
+
+  </view>
+
+  <view class="selection">
+    <view class="header">
+      <text>保质期小知识</text>
+      <text class="text-all">全部</text>
+    </view>
+
+    <view class="List-item" bindtap="fifth">
+      <view class="List-item-images">
+        <image src="../../image/yinxing.jpg" class="List-item-image-img" />
+        <image src="../../image/1.jpeg" class="avatar" />
+      </view>
+      <view class="List-item-text" >
+        <view class="List-item-text-title">
+          <text>隐形眼镜更换小知识</text>
+        </view>
+        <view>
+          <text class="List-item-text-content">现如今，越来越多的人开始佩戴隐形眼镜或美瞳，满足人们对美的追求，与此同时，我们也应该关注相应的知识。</text>
+        </view>
+      </view>
+    </view>
+    <view class="List-item" bindtap="sixth">
+      <view class="List-item-images">
+        <image src="../../image/shuaya.jpg" class="List-item-image-img" />
+        <image src="../../image/1.jpeg" class="avatar" />
+      </view>
+      <view class="List-item-text">
+        <view class="List-item-text-title">
+          <text>生活用品更换小知识</text>
+        </view>
+        <view>
+          <text class="List-item-text-content">生活用品是与我们日常生活息息相关的，所以必须要经常更换，这样才能既保证生活质量，又对自己的健康负责。</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

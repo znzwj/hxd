@@ -1,0 +1,54 @@
+.ipt-main{
+  border: 1rpx solid #eee;
+  border-radius: 5px;
+  height: 80rpx;
+  padding: 10rpx 15px;
+  font-size: 30rpx;
+  width: 610rpx;
+  display: block;
+}
+.input-wrap{  
+  margin: 30rpx 10rpx;
+}
+.switch{
+  transform: scale(0.5);
+  vertical-align: middle;
+  padding-bottom: 15rpx;
+  padding-top: 15rpx;
+}
+.btn{  
+  border-radius: 5px;
+  font-size: 30rpx;
+  line-height: 100rpx;
+  display: block;
+  background: #6fa6cf;
+  padding-top: 10rpx;
+}
+.expiredate{
+  padding-top: 15rpx;
+  padding-bottom: 20rpx;
+}
+.picker{
+  padding-top: 15rpx;
+  padding-bottom: 20rpx;
+}
+.aheadoftime{
+  padding-top: 15rpx;
+  padding-bottom: 20rpx;
+}
+.calcdate{
+  padding-top: 15rpx;
+  padding-bottom: 20rpx;
+}
+.ensure{
+  padding-top: 15rpx;
+  padding-bottom: 20rpx;
+}
+.btn-submit{
+  color: #fff;
+  flex: 1;
+  margin-right:10rpx;
+}
+.btn-cancel{
+  background: #fff;
+}

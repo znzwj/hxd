@@ -1,0 +1,81 @@
+<view class="selection">
+
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="frozentype">速冻食品类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="tuoshuitype">脱水食品类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="winetype">酒水饮料类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="chocolatetype">巧克力类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../kaifeng/kaifeng">
+      <view class="food-item">
+         <button bindtap="guoshutype">果蔬类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../kaifeng/kaifeng">
+      <view class="food-item">
+         <button bindtap="miandiantype">面点类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="tiaoweitype">调味品类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="penghuatype">膨化食品类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="milktype">奶类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="sugartype">饼干糖果类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="noodlestype">方便面类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../kaifeng/kaifeng">
+      <view class="food-item">
+         <button bindtap="ganguotype">干果类</button>
+      </view>
+   </navigator>
+   
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="othertype">其他</button>
+      </view>
+   </navigator>
+</view>
+

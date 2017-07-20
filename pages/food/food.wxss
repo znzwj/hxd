@@ -1,0 +1,8 @@
+.selection{
+  height: 1300rpx;
+  width: 100%;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

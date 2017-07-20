@@ -1,0 +1,25 @@
+<view class="container">
+  <view class="selection">
+    <view class="edit">新建保质期管理</view>
+    <view class="col">
+      <view class='item add_box' bindtap="onNewItem">
+        <image class="add_bg" src="../../image/add1.png" style="width:120rpx;height:120rpx;"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="section section_gap swiper">
+    <swiper indicator-dots="true" autoplay="true" interval="300000" duration="2000">
+      <block wx:for="{{lists}}">
+        <swiper-item>
+          <view class="swiper-item">
+            <view class="product">产品名称：{{item.curIpt}}</view>
+            <view class="product">有效期：{{item.beginTime}} - {{item.finishTime}}</view>
+            <view class="product">提醒日期：{{item.aheadDate}}</view>
+          </view>
+
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

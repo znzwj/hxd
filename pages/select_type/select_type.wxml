@@ -1,0 +1,28 @@
+<view class="selection">
+
+   <navigator url="../food/food">
+      <view class="food">
+         <button bindtap="foodtype">食品类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shenghuo/shenghuo">
+      <view class="daily">
+         <button bindtap="dailytype">生活用品类</button>
+      </view>
+   </navigator>
+   
+
+   <navigator url="../kaifeng/kaifeng">
+      <view class="cosmetic">
+         <button bindtap="cosmetictype" form-type="submit">化妆品类</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shengchan/shengchan">
+      <view class="medicine">
+         <button bindtap="medicinetype" form-type="submit">医药品类</button>
+      </view>
+   </navigator>
+
+</view>

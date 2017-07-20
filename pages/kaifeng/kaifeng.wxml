@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<view class="container">
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class="input-wrap"> 
+   <view class="selection">   
+      <input type="text" value='{{curIpt}}' returnKeyType='send' placeholder="请输入产品名称" class="ipt-main"  bindinput='iptChange' />     
+   </view>
+   <view class="selection">
+      <view class="flex-row flex-time" >
+            <picker mode="date"  start="2015-09-01" end="2017-12-31" value='{{curBegin}}' bindchange='bindDateChange'  class="pick-time time">
+                <text>
+                    开封（买到的）日期：{{curBegin}}
+                </text>
+            </picker> 
+
+            <picker range='{{curRange}}' value='{{index1}}' bindchange='bindPickerChange'  class="pick-time time">
+                <text>
+                    保质期：{{curRange[index1]}}
+                </text>
+            </picker> 
+
+            <view class="calcdate">
+               <button bindtap="calculate">计算</button>
+            </view>
+      </view>
+      <view class="selection">
+            <view class="expiredate">到期时间{{dates}}</view>
+
+            <view class="body-view">
+               <label class="time"><switch class="switch" checked bindchange="switch1Change"/>是否提前提醒</label>
+            </view> 
+
+            <picker bindchange="bindSelectChange" value="{{index2}}" range="{{array1}}">
+               <view class="picker">提前{{array1[index2]}}</view>    
+            </picker>
+
+            <view class="ensure">
+               <button bindtap="makesure">确定</button>
+            </view>
+      </view>
+            <view class="aheadoftime">提醒日期{{adates}}</view>
+
+            <label class="time"><switch class="switch" checked bindchange="switch2Change" />是否开启闹钟提醒</label>
+
+        </view>
+        <view class="flex-row" >        
+          <button class="btn btn-submit" formType="submit" hover-class="btn-hover">提交</button>
+          <button class="btn btn-cancel" formType="reset">清空</button>
+      </view>
+</view>
+</form>
+
+</view>
+ 

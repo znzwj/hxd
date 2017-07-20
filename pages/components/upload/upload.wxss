@@ -1,0 +1,11 @@
+/* pages/components/upload/upload.wxss */
+.container{
+  height: 100%;
+  width: 100%;
+  padding: 30rpx;
+}
+.weui-cell weui-cell_input{
+  height: 200rpx;
+  width: 100%;
+  border-bottom: 2px solid #ddd;
+}

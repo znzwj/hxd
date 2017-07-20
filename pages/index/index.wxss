@@ -1,0 +1,99 @@
+.selection{
+  border-bottom: 4px solid #ddd;
+}
+.slide-image{
+  width: 100%;
+  height: 500rpx;
+}
+.header{
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  margin-top: 10rpx;
+  margin-bottom:10rpx; 
+}
+.text-all{
+  color: lightblue;
+  font-size: 12px;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content-item{
+  height: 250rpx;
+  width: 45%;
+  background-color: blue;
+  margin:5px;
+  position: relative
+}
+
+.content-item image{
+  width: 100%;
+  height: 100%;
+}
+
+.content-item-text{
+  position: absolute;
+  bottom:0px;
+  color: white;
+  font-size: 10px;
+  height: 125rpx;
+  width:98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+.List-item{
+  height: 500rpx;
+  width: 100%;
+
+}
+.List-item-images{
+   height: 350rpx;
+   width: 100%;
+   position: absolute;
+}
+.List-item-image-img{ 
+   height: 100%;
+   width: 100%;
+}
+.avatar{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  position: absolute;
+  right:50rpx;
+  top:300rpx;
+}
+.List-item-text{
+  height: 150rpx;
+  width: 96%;
+  margin-top: 20rpx;
+  padding-left:2%;
+  padding-right: 2%;
+  position:relative;
+}
+.List-item-text-title{
+  position: absolute;
+  top:360rpx;
+}
+.List-item-text-content{
+  font-size: 30rpx;
+  color:black;
+  margin-top: 20rpx;
+  position:absolute;
+  top:400rpx;
+}

@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="info">
+    <text class="content">你知道吗？</text>
+  </view>
+  <view class="info">
+    <text class="content">在生活中人们常常说某个东西的保质期多长，只要在保质期内使用就会有保障，其实不然，许多东西还有开封后使用期一说，例如化妆品,眼药水等。如果忽略了开封后使用期，很有可能带来很大的安全隐患。</text>
+  </view>
+  <view class="info">
+    <text class="content">除此之外，当物品使用期过长时，如果没有记住开封日期或者开始使用日期也会给生活带来不便，比如牙刷，隐形眼镜等。</text>
+  </view>
+   <view class="info">
+    <text class="content">所以我们应该重视使用日期的问题，用换哒小程序可以解决您的烦恼，快来体验吧！</text>
+  </view>
+  <view class="footer">
+    <image src="../../../image/home.png" class="home"></image>
+    <text bindtap="backHome">回到首页</text>
+  </view>
+</view>

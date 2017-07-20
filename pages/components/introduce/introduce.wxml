@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="info">
+    <view class="title">1. 首页</view>
+    <text class="content">在首页中，我们提供了一些保质期小知识，用户可以通过该页面了解一些基本的用品使用期限，便于用户查看，以后还会陆续补充完善。如果物品到达使用期限则会在打开小程序后收到该物品已过期的提醒。而且我们会在物品的提醒日期提示用户尽快处理。</text>
+  </view>
+  <view class="info">
+    <view class="title">2. 输入页面</view>
+    <text class="content">在输入页面中，用户可以添加或删除物品，用户可以选择相应的物品属性之后，填写物品名称，开封（生产）日期，使用期限后，小程序会自动计算到期日期，但在该页面只能显示未过期物品的信息。</text>
+  </view>
+  <view class="info">
+    <view class="title">3. 个人信息页面</view>
+    <text class="content">在个人信息页面，小程序可以自动拉取用户的为新头像和用户名等个人信息，可以向微信发送消息提醒（目前该功能暂未实现，日后敬请期待），也可以查看使用说明。</text>
+  </view>
+  <view class="footer">
+    <image src="../../../image/home.png" class="home"></image>
+    <text bindtap="backHome">回到首页</text>
+  </view>
+</view>

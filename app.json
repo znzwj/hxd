@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/components/introduce/introduce",
+    "pages/components/upload/upload",
+    "pages/components/recommend/recommend",
+    "pages/components/recommend1/recommend",
+    "pages/components/recommend2/recommend",
+    "pages/components/recommend3/recommend",
+    "pages/components/specific/specific",
+    "pages/components/specific1/specific",
+    "pages/select_type/select_type",
+    "pages/food/food",
+    "pages/shenghuo/shenghuo",
+    "pages/kaifeng/kaifeng",
+    "pages/shengchan/shengchan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "lightblue",
+    "navigationBarTitleText": "~换~新~哒~",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "gray",
+    "selectedColor": "green",
+    "backgroundColor": "white",
+    "borderStyle": "black",
+    "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/star.png",
+        "selectedIconPath": "image/star_hl.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/sun.png",
+        "selectedIconPath": "image/sun_hl.png",
+        "text": "输入"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "image/setting.png",
+        "selectedIconPath": "image/setting_hl.png",
+        "text": "个人信息"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

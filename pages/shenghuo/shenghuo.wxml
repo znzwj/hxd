@@ -1,0 +1,33 @@
+ <view class="selection">
+
+
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="washtype">洗漱用品</button>
+      </view>
+   </navigator>
+
+   <navigator url="../kaifeng/kaifeng">
+      <view class="food-item">
+         <button bindtap="CONtype">隐形眼镜</button>
+      </view>
+   </navigator>
+
+   <navigator url="../kaifeng/kaifeng">
+      <view class="food-item">
+         <button bindtap="wetwipestype">湿巾</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="underweartype">内衣</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shengchan/shengchan">
+      <view class="food-item">
+         <button bindtap="othertype">其他</button>
+      </view>
+   </navigator>
+</view>

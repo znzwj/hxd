@@ -1,0 +1,22 @@
+<!--pages/components/specific/specific.wxml-->
+<view class="container">
+  <view class="info">
+    <text class="content">1.护理液开封后规定使用期内未用完，应该丢弃，更换新护理液；</text>
+  </view>
+  <view class="info">
+    <text class="content">2.镜盒应定期更换（3个月），每周使用软毛刷和护理液清洁镜盒一次；</text>
+  </view>
+   <view class="info">
+    <text class="content">3.浸泡过镜片的护理液一定要倒弃，不要重复使用；</text>
+  </view>
+  <view class="info">
+    <text class="content">4.过期护理液不使用。护理液拆封后，最好在3个月内用完或丢弃换新，以免护理液变质</text>
+  </view>
+  <view class="info">
+    <text class="content">5.隐形眼镜不可以长期浸泡在护理液中。长时间的浸泡，护理液失去消毒能力，还原成为普通水，反而变成滋生细菌的温床。通常７天要更换一次新的浸泡液。戴前一定要重新消毒清洗一遍。</text>
+  </view>
+  <view class="footer">
+    <image src="../../../image/home.png" class="home"></image>
+    <text bindtap="backHome">回到首页</text>
+  </view>
+</view>

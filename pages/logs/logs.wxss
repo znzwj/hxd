@@ -1,0 +1,82 @@
+ .container{
+   height: 1200rpx;
+   background-color: #F9F9FB;
+ }
+ .edit{
+  height: 30rpx;
+  width: 100%;
+  color: cadetblue;
+  padding-top: 20rpx;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  position: relative;
+}
+.col{
+    width: 35%;
+    height: 200rpx;
+    padding-top: 5%;
+    padding-left: 28%;
+    margin: 20rpx 3.666666%;
+    position: relative;
+}
+.add_box,
+.item.more{
+    border: 6rpx dotted #d9d9d9;
+}
+.add_box{
+    height: 150rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-wrap{
+	text-align:left;
+	width:670rpx;
+  margin: 0 auto;	
+  background: #fff;
+  border:1px solid #e2e2e2;
+  position:relative;
+  border-radius:0 0 3rpx 3rpx;
+}
+.list-wrap::after{
+  content:'';
+  position: absolute;
+  width: 98%;
+  height: 100%;
+  z-index: -1;
+  border: 1px solid #e6e6e6;
+  left: 1%;
+  bottom:-5px;
+  background: #fff;
+  border-radius:0 0 3rpx 3rpx;
+}
+.list-wrap::before{
+  content:'';
+  position: absolute;
+  width: 96%;
+  height: 100%;
+  z-index: -2;
+  border: 1px solid #e6e6e6;
+  left: 2%;
+  bottom:-9px;
+  background: #fff;
+  border-radius:0 0 3rpx 3rpx;
+}
+.list{
+  padding:10px;
+  position:relative;
+}
+.swiper-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color:honeydew;
+}
+
+.page_bd {
+  width: 100%;
+} 

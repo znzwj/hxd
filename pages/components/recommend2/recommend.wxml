@@ -1,0 +1,16 @@
+<!--pages/components/recommend2/recommend.wxml-->
+<view class="container">
+  <view class="info">
+    <text class="content">一旦肌肤长期接触过期变质的化妆品，就会对皮肤产生刺激，使皮肤细胞产生抗体，导致过敏，引起炎症，出现红斑、水肿、丘疹、粉刺等症状，有时还会伴有瘙痒和色素沉着，导致化妆性皮炎。 </text>
+  </view>
+  <view class="info">
+    <text class="content">护肤型化妆品，如冷霜、按摩膏和防裂膏等，多为油脂型原料。而营养型化妆品含脂肪、蛋白质、维生素等营养素，这些化妆品放置时间一长，可因日晒、氧化而变色、变味，  同时，还可因微生物污染而变质。使用这类化妆品，不仅会散发出异味，而且可使皮肤发生过敏反应。另外，粉底霜、色粉、唇膏、指甲油、眼影等装饰性化妆品，也可能因放置时间过久而影响美容效果，长期使用也会导致皮肤过敏。</text>
+  </view>
+  <view class="info">
+    <text class="content">所以不要再继续使用过期化妆品啦，不过我们可以废物利用，查看过期化妆品实用小妙招吧~</text>
+  </view>
+  <view class="footer">
+    <image src="../../../image/home.png" class="home"></image>
+    <text bindtap="backHome">回到首页</text>
+  </view>
+</view>

@@ -1,0 +1,38 @@
+<!--pages/components/recommend3/recommend.wxml-->
+<view class="container">
+  <view class="info">
+    <text class="content">1、洗面奶过期了可以当清洁剂使用，可以洗衣领、擦旅游鞋等；还能当男士剃须泡泡用。</text>
+  </view>
+  <view class="info">
+    <text class="content">2、过期的香水可以喷在房内、车内、洗手间或洗好的衣服上；还可以清理胶带揭除后留下来的痕迹，擦拭脏的灯具。</text>
+  </view>
+  <view class="info">
+    <text class="content">3、过期的洗发水可以清洗衣领，枕巾、枕套，另外洗羊毛衫也非常好，因为洗发水中含有毛发柔顺剂，可使羊毛清香柔软。</text>
+  </view>
+  <view class="info">
+    <text class="content">4、沐浴露过期可以清洗浴缸，效果非常棒！</text>
+  </view>
+  <view class="info">
+    <text class="content">5、过期的乳液可以护理头发，将乳液涂在发尾处，可以防止分叉，而且可使头发变得柔软；可以护甲，用化装棉蘸满乳液后包裹指甲，15分钟左右取下，可以让指甲变得十分亮泽；以当作护脚按摩油，护理足部皮肤。</text>
+  </view>
+  <view class="info">
+    <text class="content">6、干粉底或爽身粉过期了用布袋装起来，装在衣柜或鞋子里，可以去潮去味；项链打结缠绕在一起，撒点爽身粉，揉搓几下就可以轻松地解开。</text>
+  </view>
+  <view class="info">
+    <text class="content">7、过期的面霜可以保养皮具，可以涂在发尾当护发素用，还可以抹在脚上，保护足部皮肤。</text>
+  </view>
+  <view class="info">
+    <text class="content">8、过期的口红可以擦拭银饰，将口红抹在餐巾纸上，在银饰发黑的地方反复擦拭，很快就能恢复如初。</text>
+  </view>
+  <view class="info">
+    <text class="content">9、洗甲水的主要成分是丙酮，是一种有机溶剂，过期了可以清洁不干胶标签留下的印记，可以擦拭电灯开关或者插座，可以清洁油腻的餐桌、瓷砖、抽油烟机等。</text>
+  </view>
+  <view class="info">
+    <text class="content">10、化妆水含有酒精，可以用来擦油腻的餐桌、瓷砖和抽油烟机；还可以用来抹皮具、擦镜子等，效果很好。
+    </text>
+  </view>
+  <view class="footer">
+    <image src="../../../image/home.png" class="home"></image>
+    <text bindtap="backHome">回到首页</text>
+  </view>
+</view>
